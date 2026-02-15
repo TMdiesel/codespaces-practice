@@ -3,5 +3,6 @@
     "ghcr.io/devcontainers/features/copilot-cli:1": {
       "version": "latest"
     }
-  }
+  },
+  "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh"
 }
